@@ -56,10 +56,7 @@ header {
     margin-top: 0; /* Remover margem superior */
     letter-spacing: 1px; /* Adicionar espaçamento entre letras */
     font-weight: bold; /* Adicionar peso para maior destaque */
-    text-align: center; /* Centralizar o texto */
-    padding: 0 10px; /* Adicionar padding lateral para evitar que o texto chegue até as bordas */
 }
-
 
 /* Main content */
 main {
