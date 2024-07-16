@@ -1,0 +1,136 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D9D9D9;
+    color: #4A4A4A;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+/* Header logo */
+.header-logo {
+    background-color: #4A4A4A; /* Faixa cinza escura */
+    padding: 5px 0; /* Mesma altura da faixa inferior */
+}
+
+.header-text {
+    background-color: #D9D9D9; /* Faixa cinza clara */
+    padding: 10px 0;
+}
+
+/* Logo */
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 5px; /* Diminuir a distância entre a logo e a headline */
+}
+
+/* Headline */
+.headline {
+    color: #b59e20;
+    font-size: 2.5em;
+    margin: 5px 0; /* Diminuir a margem superior */
+    font-weight: bold; /* Adicionar peso para maior destaque */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adicionar sombra para efeito visual */
+    text-transform: uppercase; /* Transformar o texto para maiúsculas */
+}
+
+/* Subheadline */
+.subheadline {
+    font-size: 1.5em;
+    color: #4A4A4A;
+    font-style: italic; /* Adicionar itálico */
+    margin-top: 0; /* Remover margem superior */
+    letter-spacing: 1px; /* Adicionar espaçamento entre letras */
+    font-weight: bold; /* Adicionar peso para maior destaque */
+}
+
+/* Main content */
+main {
+    text-align: center;
+}
+
+/* Central Image */
+.imagem-central {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block; /* Garante que a imagem se comporte como um bloco */
+}
+
+/* Sobre (Content) */
+.sobre {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}/* Botão de Chamada para Ação */
+.btn-chamada-acao {
+    display: inline-block;
+    background-color: #b59e20;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px; /* Aumenta a margem inferior */
+    transition: background-color 0.3s ease;
+}
+
+.btn-chamada-acao:hover {
+    background-color: #8c7a15;
+}
+
+
+/* Footer */
+footer .footer-bg {
+    background-color: #4A4A4A; /* Faixa cinza */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Social Icons */
+footer .social {
+    margin-top: 10px;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer .social a:hover {
+    color: #b59e20;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduz o padding para telas menores */
+    }
+    .sobre {
+        padding: 15px; /* Ajusta o padding do conteúdo principal para telas menores */
+    }
+    .logo {
+        max-width: 150px; /* Reduz o tamanho do logo para telas menores */
+    }
+    .headline {
+        font-size: 2em; /* Reduz a fonte da headline para telas menores */
+    }
+}
