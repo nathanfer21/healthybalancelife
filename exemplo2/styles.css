@@ -77,23 +77,23 @@ main {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Chamada para Ação */
-.chamada-para-acao {
-    color: #b59e20;
-    font-weight: bold;
+}/* Botão de Chamada para Ação */
+.btn-chamada-acao {
+    display: inline-block;
+    background-color: #b59e20;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
     margin-top: 20px;
+    margin-bottom: 30px; /* Aumenta a margem inferior */
+    transition: background-color 0.3s ease;
 }
 
-.chamada-para-acao a {
-    text-decoration: none; /* Remove sublinhado do link */
-    color: #b59e20; /* Cor do link */
+.btn-chamada-acao:hover {
+    background-color: #8c7a15;
 }
 
-.chamada-para-acao a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
 
 /* Footer */
 footer .footer-bg {
