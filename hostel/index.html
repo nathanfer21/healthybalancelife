@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=SEU_API_KEY&callback=initMap"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Savassi Hostel Loft - Conforto, estilo e hospitalidade em Belo Horizonte.">
+    <title>Savassi Hostel Loft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo-savassi.png" alt="Savassi Hostel Loft" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#rooms">Acomodações</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#testimonials">Testemunhos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h1>Bem-vindo ao Savassi Hostel Loft</h1>
+            <p>Conforto, estilo e hospitalidade em Belo Horizonte</p>
+            <a href="#contact" class="btn">Reserve Agora</a>
+            <a href="https://wa.me/SEUNUMEROWHATSAPP" class="btn whatsapp">Fale Conosco no WhatsApp</a>
+        </div>
+    </section>
+    <section id="about" class="container">
+        <h2>Sobre Nós</h2>
+        <p>O Savassi Hostel Loft oferece uma experiência única de hospedagem no coração de Belo Horizonte, combinando conforto, estilo e hospitalidade excepcional.</p>
+    </section>
+    <section id="rooms" class="container">
+        <h2>Nossas Acomodações</h2>
+        <div class="room">
+            <img src="images/dormitorio.jpg" alt="Dormitório Compartilhado">
+            <h3>Dormitórios Compartilhados</h3>
+            <p>Perfeitos para viajantes solo e grupos de amigos, nossos dormitórios são espaçosos, seguros e contam com beliches confortáveis.</p>
+        </div>
+        <div class="room">
+            <img src="images/quarto-privativo.jpg" alt="Quarto Privativo">
+            <h3>Quartos Privativos</h3>
+            <p>Ideal para casais ou aqueles que preferem mais privacidade, nossos quartos privativos são elegantes e equipados com todas as comodidades necessárias para uma estadia confortável.</p>
+        </div>
+    </section>
+    <section id="gallery" class="container">
+        <h2>Galeria de Imagens</h2>
+        <div class="gallery-grid">
+            <img src="images/img1.jpg" alt="Imagem do hostel">
+            <img src="images/img2.jpg" alt="Quarto compartilhado">
+            <img src="images/img3.jpg" alt="Quarto privativo">
+            <img src="images/img4.jpg" alt="Área comum">
+        </div>
+    </section>
+    <section id="testimonials" class="container">
+        <h2>O que nossos hóspedes dizem</h2>
+        <div class="testimonial">
+            <p>"Tive uma experiência incrível no Savassi Hostel Loft. A equipe é super atenciosa e as acomodações são impecáveis!" - João S.</p>
+        </div>
+        <div class="testimonial">
+            <p>"Melhor hostel em Belo Horizonte! Ótima localização e ambiente acolhedor." - Maria F.</p>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Fale Conosco</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="map"></div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Savassi Hostel Loft. Todos os direitos reservados.</p>
+            <div class="social-media">
+                <a href="https://facebook.com/savassihostelloft" aria-label="Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                <a href="https://instagram.com/savassihostelloft" aria-label="Instagram"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://twitter.com/savassihostel" aria-label="Twitter"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
